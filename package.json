@@ -1,0 +1,50 @@
+{
+  "name": "bookshelf",
+  "version": "0.0.0-11",
+  "description": "mean application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wzaghal/bookshelf.git"
+  },
+  "keywords": [
+    "mean",
+    "angularjs",
+    "nodejs",
+    "mongodb",
+    "express",
+    "javascript"
+  ],
+  "author": "wzaghal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzaghal/bookshelf/issues"
+  },
+  "homepage": "https://github.com/wzaghal/bookshelf",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-jshint": "^1.7.1",
+    "gulp-livereload": "^2.1.0",
+    "gulp-plumber": "^0.6.4",
+    "gulp-sass": "^0.7.2",
+    "jsdoc": "^3.3.0-alpha9",
+    "jshint-stylish": "^0.4.0"
+  },
+  "dependencies": {
+    "express": "^4.6.1",
+    "body-parser": "^1.5.0",
+    "mongoose": "^3.8.13",
+    "passport": "^0.2.0",
+    "express-session": "^1.7.2",
+    "bcryptjs": "^2.0.2",
+    "passport-local": "^1.0.0"
+  },
+  "subdomain": "wzaghal-bookshelf",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
